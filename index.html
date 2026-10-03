@@ -15,7 +15,7 @@ a{color:inherit;text-decoration:none}.w{width:min(1040px,calc(100% - 36px));marg
 h1,h2{font-family:"Barlow Condensed","Arial Narrow",Impact,sans-serif;font-weight:800;text-transform:uppercase;line-height:.92;margin:0}
 h1{font-size:clamp(58px,13vw,120px)}h2{font-size:clamp(42px,8vw,72px)}
 nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);height:64px}nav .w{height:100%;display:flex;align-items:center;justify-content:space-between}
-.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:13px;line-height:1.1}.logo b{background:var(--red);color:#fff;width:34px;height:30px;display:grid;place-items:center;border-radius:5px;font-family:"Barlow Condensed",sans-serif;font-size:20px}.logo i{font-style:normal;color:var(--lime);display:block}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:13px;line-height:1.1}.logo img{width:58px;height:58px;object-fit:contain;display:block}.logo i{font-style:normal;color:var(--lime);display:block}
 .btn{background:var(--red);color:#fff;border:0;padding:15px 22px;font-weight:700;font-size:15px;cursor:pointer;display:inline-flex;gap:14px;align-items:center;justify-content:space-between;font-family:inherit}.btn.f{width:100%}.btn.s{padding:9px 14px;font-size:13px}.btn.o{background:none;color:var(--text);border:1px solid var(--line)}
 .hero{position:relative;overflow:hidden;padding:60px 0 50px}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,var(--bg)),linear-gradient(115deg,transparent 30%,var(--glow))}.hero:after{content:"";position:absolute;right:-80px;top:20px;width:340px;height:340px;border:2px solid #fff4;border-radius:50%}
 .hero .w{position:relative;z-index:1}.hero p{max-width:480px;line-height:1.7;color:var(--muted);margin:22px 0 26px;font-size:17px}
@@ -39,7 +39,7 @@ footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(
 </style>
 </head>
 <body>
-<nav><div class="w"><a class="logo" href="#/"><b>AA</b><span>ATHLETES<i>ARENA</i></span></a><a class="btn s" href="#/book">Book now</a></div></nav>
+<nav><div class="w"><a class="logo" href="#/"><img src="logo.png" alt="Athlete's Arena Logo"></a><a class="btn s" href="#/book">Book now</a></div></nav>
 <div id="app"></div>
 <footer><div class="w"><span>© 2026 Athletes Arena · Open 24 hours</span><span>Near Khadi Machine, Kondhwa, Pune · <a href="#/owner" style="text-decoration:underline">Owner login</a></span></div></footer>
 <script>
